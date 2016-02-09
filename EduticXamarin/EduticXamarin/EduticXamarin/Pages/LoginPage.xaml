@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EduticXamarin.Pages.LoginPage"
+             BackgroundImage="afondo.png">
+ 
+    <AbsoluteLayout HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand">
+    
+      <Label x:Name="iniciarSlabel" Text="Iniciar Sesión"
+             TextColor="White"
+             XAlign="Start"
+             AbsoluteLayout.LayoutBounds="0.5,0.75,0.8,0.2"
+             AbsoluteLayout.LayoutFlags="All"/>
+    
+      <Image x:Name="img_user" Source="cajatexto.png"
+             AbsoluteLayout.LayoutBounds="0.5,0.705,0.8,0.09"
+             AbsoluteLayout.LayoutFlags="All"/>
+    
+      <Entry x:Name="userEntry" Placeholder="Usuario"
+             TextColor="#9E9E9E" PlaceholderColor="#9E9E9E"
+             AbsoluteLayout.LayoutBounds="0.5,0.705,0.8,0.09"
+             AbsoluteLayout.LayoutFlags="All"/>
+    
+      <Image x:Name="img_pass" Source="cajatexto.png"
+             AbsoluteLayout.LayoutBounds="0.5,0.8,0.8,0.09"
+             AbsoluteLayout.LayoutFlags="All"/>
+  
+      <Entry x:Name="passEntry" Placeholder="Contrasena"
+             TextColor="#9E9E9E" PlaceholderColor="#9E9E9E"
+             IsPassword="True"
+             AbsoluteLayout.LayoutBounds="0.5,0.8,0.8,0.09"
+             AbsoluteLayout.LayoutFlags="All"/>
+    
+      <Image x:Name="imgBtnLogin" Source="otherlogin.png"
+             AbsoluteLayout.LayoutBounds="0.16,0.93,0.4,0.09"
+             AbsoluteLayout.LayoutFlags="All"/>
+    
+      <Button x:Name="BtnLogin"
+              Opacity="0.0"
+              AbsoluteLayout.LayoutBounds="0.16,0.93,0.4,0.09"
+              AbsoluteLayout.LayoutFlags="All"/>
+    
+      <Label x:Name="forgotpassLabel" Text="FOGOT PASSWORD?"
+             TextColor="White"
+             FontSize="Medium" XAlign="Center"
+             AbsoluteLayout.LayoutBounds="0.87,0.94,0.4,0.09"
+             AbsoluteLayout.LayoutFlags="All"/>
+    
+      <Label x:Name="changeLabel" Text="CHANGE"
+             TextColor="Aqua"
+             FontSize="Medium" XAlign="Center"
+             AbsoluteLayout.LayoutBounds="0.87,0.98,0.4,0.09"
+             AbsoluteLayout.LayoutFlags="All"/>
+  
+    </AbsoluteLayout>
+  
+</ContentPage>

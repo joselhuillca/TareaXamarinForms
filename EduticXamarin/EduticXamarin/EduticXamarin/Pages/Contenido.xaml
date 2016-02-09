@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EduticXamarin.Pages.Contenido"
+             BackgroundColor="White">
+  <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+               Padding="20,20,20,20">
+    <Label Text="NEWS"
+           HorizontalOptions="Center"
+           TextColor="Black"
+           FontSize="Large"/>
+    <Label x:Name="cargandoLabelC" TextColor="Black"
+           HorizontalTextAlignment="Center" FontSize="Medium"/>
+    <ListView x:Name="noticiaListView" />
+  </StackLayout>
+</ContentPage>

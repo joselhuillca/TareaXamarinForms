@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EduticXamarin.Pages.Buscar"
+             BackgroundColor="White">
+  <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+    <Label Text="BUSCAR" TextColor="Black"
+           FontSize="Large" HorizontalTextAlignment="Center"
+           AbsoluteLayout.LayoutBounds="0.5,0.1,1,0.09"
+           AbsoluteLayout.LayoutFlags="All"/>
+    <Entry x:Name="buscarEntry" Placeholder="Buscar"
+           PlaceholderColor="#9E9E9E" TextColor="Black"
+           BackgroundColor="#EEEEEE"
+           AbsoluteLayout.LayoutBounds="0.5,0.15,0.8,0.09"
+           AbsoluteLayout.LayoutFlags="All"/>
+    
+    <Button x:Name="btnBuscarNews" Text="Buscar" HorizontalOptions="Start"
+            TextColor="White" BackgroundColor="Blue" FontSize="Medium"
+            AbsoluteLayout.LayoutBounds="0.25,0.25,0.3,0.09"
+            AbsoluteLayout.LayoutFlags="All"/>
+
+    <Button x:Name="btnBackNews" Text="Back" HorizontalOptions="End"
+            TextColor="White" BackgroundColor="Black" FontSize="Medium"
+            AbsoluteLayout.LayoutBounds="0.75,0.25,0.3,0.09"
+            AbsoluteLayout.LayoutFlags="All"/>
+
+    <Label x:Name="cargandoLabel" TextColor="Black" HorizontalTextAlignment="Center" FontSize="Medium"
+           AbsoluteLayout.LayoutBounds="0.5,0.5,1,0.09"
+           AbsoluteLayout.LayoutFlags="All"/>
+    
+    <ListView x:Name="resultadoListView"
+              AbsoluteLayout.LayoutBounds="0.5,0.75,0.8,0.4"
+              AbsoluteLayout.LayoutFlags="All"/>
+    
+  </AbsoluteLayout>
+</ContentPage>
